@@ -1,0 +1,10 @@
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\bin\Debug\aomsin.exe
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\bin\Debug\aomsin.pdb
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.Dashboard.resources
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.Income.resources
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.LoginPage.resources
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.Properties.Resources.resources
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.csproj.GenerateResource.Cache
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.exe
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.pdb
+C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.payment.resources
