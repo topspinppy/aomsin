@@ -8,3 +8,16 @@ C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.csproj.Ge
 C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.exe
 C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.pdb
 C:\Users\topspinppy\Desktop\aomsins\aomsin\aomsin\obj\x86\Debug\aomsin.payment.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.exe
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.pdb
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.csprojResolveAssemblyReference.cache
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.Dashboard.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.Income.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.LoginPage.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.payment.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.Properties.Resources.resources
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.csproj.GenerateResource.Cache
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\bin\Debug\aomsin.exe
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\bin\Debug\aomsin.pdb
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\bin\Debug\MySql.Data.dll
+C:\Users\Bomoshi\Desktop\aomsin\aomsin\obj\x86\Debug\aomsin.register.resources

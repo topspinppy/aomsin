@@ -53,7 +53,8 @@
             this.เกยวกบโปรแกรมToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1143, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1575, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,45 +64,46 @@
             this.IncomeToolStripMenuItem,
             this.บนทกรายจายToolStripMenuItem});
             this.บนทกรายรบรายจายToolStripMenuItem.Name = "บนทกรายรบรายจายToolStripMenuItem";
-            this.บนทกรายรบรายจายToolStripMenuItem.Size = new System.Drawing.Size(151, 24);
+            this.บนทกรายรบรายจายToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.บนทกรายรบรายจายToolStripMenuItem.Text = "บันทึกรายรับ - รายจ่าย";
             // 
             // IncomeToolStripMenuItem
             // 
             this.IncomeToolStripMenuItem.Name = "IncomeToolStripMenuItem";
-            this.IncomeToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.IncomeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.IncomeToolStripMenuItem.Text = "บันทึกรายรับ";
             this.IncomeToolStripMenuItem.Click += new System.EventHandler(this.IncomeToolStripMenuItem_Click);
             // 
             // บนทกรายจายToolStripMenuItem
             // 
             this.บนทกรายจายToolStripMenuItem.Name = "บนทกรายจายToolStripMenuItem";
-            this.บนทกรายจายToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.บนทกรายจายToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.บนทกรายจายToolStripMenuItem.Text = "บันทึกรายจ่าย";
             // 
             // รายงานToolStripMenuItem
             // 
             this.รายงานToolStripMenuItem.Name = "รายงานToolStripMenuItem";
-            this.รายงานToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.รายงานToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.รายงานToolStripMenuItem.Text = "รายงาน";
             // 
             // เครองมอToolStripMenuItem
             // 
             this.เครองมอToolStripMenuItem.Name = "เครองมอToolStripMenuItem";
-            this.เครองมอToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.เครองมอToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.เครองมอToolStripMenuItem.Text = "เครื่องมือ";
             // 
             // เกยวกบโปรแกรมToolStripMenuItem
             // 
             this.เกยวกบโปรแกรมToolStripMenuItem.Name = "เกยวกบโปรแกรมToolStripMenuItem";
-            this.เกยวกบโปรแกรมToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
+            this.เกยวกบโปรแกรมToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.เกยวกบโปรแกรมToolStripMenuItem.Text = "เกี่ยวกับโปรแกรม";
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 577);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 699);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1143, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1575, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -110,9 +112,9 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripButton2});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1143, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(1575, 39);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -122,7 +124,7 @@
             this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(117, 36);
+            this.toolStripButton1.Size = new System.Drawing.Size(99, 36);
             this.toolStripButton1.Text = "บันทึกรายรับ";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -132,21 +134,22 @@
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(125, 36);
+            this.toolStripButton2.Size = new System.Drawing.Size(104, 36);
             this.toolStripButton2.Text = "บันทึกรายจ่าย";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1143, 599);
+            this.ClientSize = new System.Drawing.Size(1575, 721);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Dashboard";
             this.Text = "Aomsin 1.0";
             this.menuStrip1.ResumeLayout(false);

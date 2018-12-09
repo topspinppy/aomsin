@@ -35,8 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.statusStrip2 = new System.Windows.Forms.StatusStrip();
-            this.status = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.registerBtn = new System.Windows.Forms.Button();
             this.loginBtn = new System.Windows.Forms.Button();
@@ -44,9 +42,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.userBox = new System.Windows.Forms.TextBox();
+            this.status = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip2 = new System.Windows.Forms.StatusStrip();
             this.statusStrip1.SuspendLayout();
-            this.statusStrip2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.statusStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -62,14 +62,14 @@
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(151, 20);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(118, 20);
             this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             // 
             // Username
             // 
             this.Username.Location = new System.Drawing.Point(320, 112);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(210, 22);
+            this.Username.Size = new System.Drawing.Size(210, 20);
             this.Username.TabIndex = 1;
             // 
             // label1
@@ -95,7 +95,7 @@
             this.Password.Location = new System.Drawing.Point(320, 152);
             this.Password.Name = "Password";
             this.Password.PasswordChar = '*';
-            this.Password.Size = new System.Drawing.Size(210, 22);
+            this.Password.Size = new System.Drawing.Size(210, 20);
             this.Password.TabIndex = 3;
             // 
             // button1
@@ -107,22 +107,6 @@
             this.button1.Text = "Password";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // statusStrip2
-            // 
-            this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.status});
-            this.statusStrip2.Location = new System.Drawing.Point(0, 293);
-            this.statusStrip2.Name = "statusStrip2";
-            this.statusStrip2.Size = new System.Drawing.Size(567, 25);
-            this.statusStrip2.TabIndex = 0;
-            this.statusStrip2.Text = "statusStrip2";
-            // 
-            // status
-            // 
-            this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(151, 20);
-            this.status.Text = "toolStripStatusLabel1";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.registerBtn);
@@ -131,9 +115,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.userBox);
-            this.groupBox1.Location = new System.Drawing.Point(235, 63);
+            this.groupBox1.Location = new System.Drawing.Point(240, 66);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(303, 193);
+            this.groupBox1.Size = new System.Drawing.Size(298, 190);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "เข้าสู่ระบบ";
@@ -162,7 +146,7 @@
             this.passBox.Location = new System.Drawing.Point(113, 91);
             this.passBox.Name = "passBox";
             this.passBox.PasswordChar = '*';
-            this.passBox.Size = new System.Drawing.Size(159, 22);
+            this.passBox.Size = new System.Drawing.Size(159, 20);
             this.passBox.TabIndex = 3;
             this.passBox.Text = "432018";
             // 
@@ -171,7 +155,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(35, 94);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 17);
+            this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Password";
             // 
@@ -180,7 +164,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(34, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 17);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Username";
             // 
@@ -188,9 +172,25 @@
             // 
             this.userBox.Location = new System.Drawing.Point(113, 43);
             this.userBox.Name = "userBox";
-            this.userBox.Size = new System.Drawing.Size(159, 22);
+            this.userBox.Size = new System.Drawing.Size(159, 20);
             this.userBox.TabIndex = 0;
             this.userBox.Text = "topspin";
+            // 
+            // status
+            // 
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(118, 17);
+            this.status.Text = "toolStripStatusLabel1";
+            // 
+            // statusStrip2
+            // 
+            this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.status});
+            this.statusStrip2.Location = new System.Drawing.Point(0, 296);
+            this.statusStrip2.Name = "statusStrip2";
+            this.statusStrip2.Size = new System.Drawing.Size(567, 22);
+            this.statusStrip2.TabIndex = 0;
+            this.statusStrip2.Text = "statusStrip2";
             // 
             // LoginPage
             // 
@@ -201,10 +201,10 @@
             this.Text = "Aomsin 1.0";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.statusStrip2.ResumeLayout(false);
-            this.statusStrip2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.statusStrip2.ResumeLayout(false);
+            this.statusStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,8 +220,6 @@
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.Button Login;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.StatusStrip statusStrip2;
-        private System.Windows.Forms.ToolStripStatusLabel status;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox userBox;
@@ -229,6 +227,8 @@
         private System.Windows.Forms.Button registerBtn;
         private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.TextBox passBox;
+        private System.Windows.Forms.ToolStripStatusLabel status;
+        private System.Windows.Forms.StatusStrip statusStrip2;
     }
 }
 
