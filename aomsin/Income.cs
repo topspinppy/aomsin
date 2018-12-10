@@ -191,5 +191,45 @@ namespace aomsin
         {
             typeincomefilter = typeincomesearch.Text == "" ? "" : Regex.Match(typeincomesearch.Text, @"\d+").Value;
         }
+
+        private void date_income_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void typeincoms_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void descriptionincome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void money_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataG_ShowAllTypeIncome_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtBox_addIdIncome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBox_addnameIncome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

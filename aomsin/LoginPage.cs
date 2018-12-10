@@ -42,5 +42,12 @@ namespace aomsin
                 status.Text = "เข้าสู่ระบบไม่สำเร็จ อันเนื่องมาจากรหัสผ่านผิดหรือชื่อผู้ใช้ผิด กรุณาติดต่อผู้ดูแลระบบ";
             }
         }
+
+        private void registerBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            register reg = new register();
+            reg.Show();
+        }
     }
 }

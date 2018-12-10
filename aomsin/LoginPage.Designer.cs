@@ -130,6 +130,7 @@
             this.registerBtn.TabIndex = 5;
             this.registerBtn.Text = "ลงทะเบียนเข้าใช้งาน";
             this.registerBtn.UseVisualStyleBackColor = true;
+            this.registerBtn.Click += new System.EventHandler(this.registerBtn_Click);
             // 
             // loginBtn
             // 

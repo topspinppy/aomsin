@@ -31,7 +31,7 @@
             this.price = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.search = new System.Windows.Forms.Button();
-            this.typeincomesearch = new System.Windows.Forms.ComboBox();
+            this.typepaymentsearch = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.dateendsearch = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
@@ -39,39 +39,39 @@
             this.datestartsearch = new System.Windows.Forms.DateTimePicker();
             this.allprice = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.allIncome = new System.Windows.Forms.DataGridView();
+            this.allIpayment = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.descriptionincome = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.save_income = new System.Windows.Forms.Button();
+            this.descriptionpayment = new System.Windows.Forms.TextBox();
+            this.delete_payment = new System.Windows.Forms.Button();
+            this.save_payment = new System.Windows.Forms.Button();
             this.addTypeIncomeBox = new System.Windows.Forms.GroupBox();
-            this.closetypeincome = new System.Windows.Forms.Button();
-            this.dataG_ShowAllTypeIncome = new System.Windows.Forms.DataGridView();
-            this.saveTypeIncome = new System.Windows.Forms.Button();
-            this.txtBox_addnameIncome = new System.Windows.Forms.TextBox();
+            this.closetypepayment = new System.Windows.Forms.Button();
+            this.dataG_ShowAllTypepayment = new System.Windows.Forms.DataGridView();
+            this.saveTypepayment = new System.Windows.Forms.Button();
+            this.txtBox_addnamepayment = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtBox_addIdIncome = new System.Windows.Forms.TextBox();
+            this.txtBox_addIdpayment = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.money = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnAddTypeIncome = new System.Windows.Forms.Button();
-            this.typeincoms = new System.Windows.Forms.ComboBox();
+            this.btnAddTypePayment = new System.Windows.Forms.Button();
+            this.typepayment = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.date_income = new System.Windows.Forms.DateTimePicker();
+            this.date_payment = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.price.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.allIncome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.allIpayment)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.addTypeIncomeBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_ShowAllTypeIncome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataG_ShowAllTypepayment)).BeginInit();
             this.SuspendLayout();
             // 
             // price
             // 
             this.price.Controls.Add(this.button3);
             this.price.Controls.Add(this.search);
-            this.price.Controls.Add(this.typeincomesearch);
+            this.price.Controls.Add(this.typepaymentsearch);
             this.price.Controls.Add(this.label10);
             this.price.Controls.Add(this.dateendsearch);
             this.price.Controls.Add(this.label9);
@@ -79,67 +79,74 @@
             this.price.Controls.Add(this.datestartsearch);
             this.price.Controls.Add(this.allprice);
             this.price.Controls.Add(this.label7);
-            this.price.Controls.Add(this.allIncome);
+            this.price.Controls.Add(this.allIpayment);
             this.price.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price.Location = new System.Drawing.Point(415, 17);
+            this.price.Location = new System.Drawing.Point(311, 14);
+            this.price.Margin = new System.Windows.Forms.Padding(2);
             this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(1012, 750);
+            this.price.Padding = new System.Windows.Forms.Padding(2);
+            this.price.Size = new System.Drawing.Size(759, 609);
             this.price.TabIndex = 4;
             this.price.TabStop = false;
             this.price.Text = "ค้นหา";
-            this.price.Enter += new System.EventHandler(this.price_Enter);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(712, 96);
+            this.button3.Location = new System.Drawing.Point(614, 325);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 30);
+            this.button3.Size = new System.Drawing.Size(116, 24);
             this.button3.TabIndex = 19;
             this.button3.Text = " นำออกเป็น PDF";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // search
             // 
-            this.search.Location = new System.Drawing.Point(526, 96);
+            this.search.Location = new System.Drawing.Point(614, 248);
+            this.search.Margin = new System.Windows.Forms.Padding(2);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(155, 30);
+            this.search.Size = new System.Drawing.Size(116, 24);
             this.search.TabIndex = 18;
             this.search.Text = "แสดงผล";
             this.search.UseVisualStyleBackColor = true;
             // 
-            // typeincomesearch
+            // typepaymentsearch
             // 
-            this.typeincomesearch.FormattingEnabled = true;
-            this.typeincomesearch.Location = new System.Drawing.Point(134, 98);
-            this.typeincomesearch.Name = "typeincomesearch";
-            this.typeincomesearch.Size = new System.Drawing.Size(354, 30);
-            this.typeincomesearch.TabIndex = 14;
+            this.typepaymentsearch.FormattingEnabled = true;
+            this.typepaymentsearch.Location = new System.Drawing.Point(100, 80);
+            this.typepaymentsearch.Margin = new System.Windows.Forms.Padding(2);
+            this.typepaymentsearch.Name = "typepaymentsearch";
+            this.typepaymentsearch.Size = new System.Drawing.Size(266, 25);
+            this.typepaymentsearch.TabIndex = 14;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(31, 102);
+            this.label10.Location = new System.Drawing.Point(23, 83);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 20);
+            this.label10.Size = new System.Drawing.Size(49, 17);
             this.label10.TabIndex = 17;
             this.label10.Text = "ประเภท";
             // 
             // dateendsearch
             // 
             this.dateendsearch.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateendsearch.Location = new System.Drawing.Point(619, 49);
+            this.dateendsearch.Location = new System.Drawing.Point(464, 60);
+            this.dateendsearch.Margin = new System.Windows.Forms.Padding(2);
             this.dateendsearch.Name = "dateendsearch";
-            this.dateendsearch.Size = new System.Drawing.Size(354, 28);
+            this.dateendsearch.Size = new System.Drawing.Size(266, 24);
             this.dateendsearch.TabIndex = 16;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(522, 57);
+            this.label9.Location = new System.Drawing.Point(392, 66);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 20);
+            this.label9.Size = new System.Drawing.Size(63, 17);
             this.label9.TabIndex = 15;
             this.label9.Text = "วันที่สิ้นสุด";
             // 
@@ -147,189 +154,213 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(31, 57);
+            this.label8.Location = new System.Drawing.Point(23, 46);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 20);
+            this.label8.Size = new System.Drawing.Size(68, 17);
             this.label8.TabIndex = 14;
             this.label8.Text = "วันที่เริ่มต้น";
             // 
             // datestartsearch
             // 
             this.datestartsearch.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.datestartsearch.Location = new System.Drawing.Point(134, 49);
+            this.datestartsearch.Location = new System.Drawing.Point(100, 40);
+            this.datestartsearch.Margin = new System.Windows.Forms.Padding(2);
             this.datestartsearch.Name = "datestartsearch";
-            this.datestartsearch.Size = new System.Drawing.Size(354, 28);
+            this.datestartsearch.Size = new System.Drawing.Size(266, 24);
             this.datestartsearch.TabIndex = 14;
             // 
             // allprice
             // 
             this.allprice.AutoSize = true;
-            this.allprice.Location = new System.Drawing.Point(862, 679);
+            this.allprice.Location = new System.Drawing.Point(646, 552);
+            this.allprice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.allprice.Name = "allprice";
-            this.allprice.Size = new System.Drawing.Size(20, 24);
+            this.allprice.Size = new System.Drawing.Size(16, 18);
             this.allprice.TabIndex = 3;
             this.allprice.Text = "0";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(708, 679);
+            this.label7.Location = new System.Drawing.Point(531, 552);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(123, 24);
+            this.label7.Size = new System.Drawing.Size(100, 18);
             this.label7.TabIndex = 2;
             this.label7.Text = "รวมรายรับทั้งสิ้น";
             // 
-            // allIncome
+            // allIpayment
             // 
-            this.allIncome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.allIncome.Location = new System.Drawing.Point(24, 165);
-            this.allIncome.Name = "allIncome";
-            this.allIncome.RowTemplate.Height = 24;
-            this.allIncome.Size = new System.Drawing.Size(968, 485);
-            this.allIncome.TabIndex = 0;
+            this.allIpayment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.allIpayment.Location = new System.Drawing.Point(18, 134);
+            this.allIpayment.Margin = new System.Windows.Forms.Padding(2);
+            this.allIpayment.Name = "allIpayment";
+            this.allIpayment.RowTemplate.Height = 24;
+            this.allIpayment.Size = new System.Drawing.Size(558, 394);
+            this.allIpayment.TabIndex = 0;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.descriptionincome);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.save_income);
+            this.groupBox1.Controls.Add(this.descriptionpayment);
+            this.groupBox1.Controls.Add(this.delete_payment);
+            this.groupBox1.Controls.Add(this.save_payment);
             this.groupBox1.Controls.Add(this.addTypeIncomeBox);
             this.groupBox1.Controls.Add(this.money);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.btnAddTypeIncome);
-            this.groupBox1.Controls.Add(this.typeincoms);
+            this.groupBox1.Controls.Add(this.btnAddTypePayment);
+            this.groupBox1.Controls.Add(this.typepayment);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.date_income);
+            this.groupBox1.Controls.Add(this.date_payment);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(2, 17);
+            this.groupBox1.Location = new System.Drawing.Point(2, 14);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(386, 750);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(290, 609);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "บันทึกรายจ่าย";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            
             // 
-            // descriptionincome
+            // descriptionpayment
             // 
-            this.descriptionincome.Location = new System.Drawing.Point(113, 129);
-            this.descriptionincome.Multiline = true;
-            this.descriptionincome.Name = "descriptionincome";
-            this.descriptionincome.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.descriptionincome.Size = new System.Drawing.Size(254, 122);
-            this.descriptionincome.TabIndex = 13;
+            this.descriptionpayment.Location = new System.Drawing.Point(85, 105);
+            this.descriptionpayment.Margin = new System.Windows.Forms.Padding(2);
+            this.descriptionpayment.Multiline = true;
+            this.descriptionpayment.Name = "descriptionpayment";
+            this.descriptionpayment.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.descriptionpayment.Size = new System.Drawing.Size(192, 100);
+            this.descriptionpayment.TabIndex = 13;
             // 
-            // button2
+            // delete_payment
             // 
-            this.button2.Location = new System.Drawing.Point(244, 300);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 35);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "ลบ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.delete_payment.Location = new System.Drawing.Point(183, 244);
+            this.delete_payment.Margin = new System.Windows.Forms.Padding(2);
+            this.delete_payment.Name = "delete_payment";
+            this.delete_payment.Size = new System.Drawing.Size(56, 28);
+            this.delete_payment.TabIndex = 12;
+            this.delete_payment.Text = "ลบ";
+            this.delete_payment.UseVisualStyleBackColor = true;
             // 
-            // save_income
+            // save_payment
             // 
-            this.save_income.Location = new System.Drawing.Point(77, 300);
-            this.save_income.Name = "save_income";
-            this.save_income.Size = new System.Drawing.Size(78, 35);
-            this.save_income.TabIndex = 11;
-            this.save_income.Text = "บันทึก";
-            this.save_income.UseVisualStyleBackColor = true;
+            this.save_payment.Location = new System.Drawing.Point(58, 244);
+            this.save_payment.Margin = new System.Windows.Forms.Padding(2);
+            this.save_payment.Name = "save_payment";
+            this.save_payment.Size = new System.Drawing.Size(58, 28);
+            this.save_payment.TabIndex = 11;
+            this.save_payment.Text = "บันทึก";
+            this.save_payment.UseVisualStyleBackColor = true;
+            this.save_payment.Click += new System.EventHandler(this.save_payment_Click);
             // 
             // addTypeIncomeBox
             // 
-            this.addTypeIncomeBox.Controls.Add(this.closetypeincome);
-            this.addTypeIncomeBox.Controls.Add(this.dataG_ShowAllTypeIncome);
-            this.addTypeIncomeBox.Controls.Add(this.saveTypeIncome);
-            this.addTypeIncomeBox.Controls.Add(this.txtBox_addnameIncome);
+            this.addTypeIncomeBox.Controls.Add(this.closetypepayment);
+            this.addTypeIncomeBox.Controls.Add(this.dataG_ShowAllTypepayment);
+            this.addTypeIncomeBox.Controls.Add(this.saveTypepayment);
+            this.addTypeIncomeBox.Controls.Add(this.txtBox_addnamepayment);
             this.addTypeIncomeBox.Controls.Add(this.label6);
-            this.addTypeIncomeBox.Controls.Add(this.txtBox_addIdIncome);
+            this.addTypeIncomeBox.Controls.Add(this.txtBox_addIdpayment);
             this.addTypeIncomeBox.Controls.Add(this.label5);
             this.addTypeIncomeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addTypeIncomeBox.Location = new System.Drawing.Point(18, 362);
+            this.addTypeIncomeBox.Location = new System.Drawing.Point(14, 294);
+            this.addTypeIncomeBox.Margin = new System.Windows.Forms.Padding(2);
             this.addTypeIncomeBox.Name = "addTypeIncomeBox";
+            this.addTypeIncomeBox.Padding = new System.Windows.Forms.Padding(2);
             this.addTypeIncomeBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.addTypeIncomeBox.Size = new System.Drawing.Size(349, 363);
+            this.addTypeIncomeBox.Size = new System.Drawing.Size(262, 295);
             this.addTypeIncomeBox.TabIndex = 10;
             this.addTypeIncomeBox.TabStop = false;
             this.addTypeIncomeBox.Text = "เพิ่มประเภทรายจ่าย";
             // 
-            // closetypeincome
+            // closetypepayment
             // 
-            this.closetypeincome.Location = new System.Drawing.Point(226, 134);
-            this.closetypeincome.Name = "closetypeincome";
-            this.closetypeincome.Size = new System.Drawing.Size(75, 35);
-            this.closetypeincome.TabIndex = 14;
-            this.closetypeincome.Text = "ปิด";
-            this.closetypeincome.UseVisualStyleBackColor = true;
+            this.closetypepayment.Location = new System.Drawing.Point(170, 109);
+            this.closetypepayment.Margin = new System.Windows.Forms.Padding(2);
+            this.closetypepayment.Name = "closetypepayment";
+            this.closetypepayment.Size = new System.Drawing.Size(56, 28);
+            this.closetypepayment.TabIndex = 14;
+            this.closetypepayment.Text = "ปิด";
+            this.closetypepayment.UseVisualStyleBackColor = true;
+            this.closetypepayment.Click += new System.EventHandler(this.closetypepayment_Click);
             // 
-            // dataG_ShowAllTypeIncome
+            // dataG_ShowAllTypepayment
             // 
-            this.dataG_ShowAllTypeIncome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataG_ShowAllTypeIncome.Location = new System.Drawing.Point(20, 185);
-            this.dataG_ShowAllTypeIncome.Name = "dataG_ShowAllTypeIncome";
-            this.dataG_ShowAllTypeIncome.RowTemplate.Height = 24;
-            this.dataG_ShowAllTypeIncome.Size = new System.Drawing.Size(312, 156);
-            this.dataG_ShowAllTypeIncome.TabIndex = 14;
+            this.dataG_ShowAllTypepayment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataG_ShowAllTypepayment.Location = new System.Drawing.Point(15, 150);
+            this.dataG_ShowAllTypepayment.Margin = new System.Windows.Forms.Padding(2);
+            this.dataG_ShowAllTypepayment.Name = "dataG_ShowAllTypepayment";
+            this.dataG_ShowAllTypepayment.RowTemplate.Height = 24;
+            this.dataG_ShowAllTypepayment.Size = new System.Drawing.Size(234, 127);
+            this.dataG_ShowAllTypepayment.TabIndex = 14;
             // 
-            // saveTypeIncome
+            // saveTypepayment
             // 
-            this.saveTypeIncome.Location = new System.Drawing.Point(59, 134);
-            this.saveTypeIncome.Name = "saveTypeIncome";
-            this.saveTypeIncome.Size = new System.Drawing.Size(78, 35);
-            this.saveTypeIncome.TabIndex = 13;
-            this.saveTypeIncome.Text = "บันทึก";
-            this.saveTypeIncome.UseMnemonic = false;
-            this.saveTypeIncome.UseVisualStyleBackColor = true;
+            this.saveTypepayment.Location = new System.Drawing.Point(44, 109);
+            this.saveTypepayment.Margin = new System.Windows.Forms.Padding(2);
+            this.saveTypepayment.Name = "saveTypepayment";
+            this.saveTypepayment.Size = new System.Drawing.Size(58, 28);
+            this.saveTypepayment.TabIndex = 13;
+            this.saveTypepayment.Text = "บันทึก";
+            this.saveTypepayment.UseMnemonic = false;
+            this.saveTypepayment.UseVisualStyleBackColor = true;
+            this.saveTypepayment.Click += new System.EventHandler(this.saveTypepayment_Click);
             // 
-            // txtBox_addnameIncome
+            // txtBox_addnamepayment
             // 
-            this.txtBox_addnameIncome.Location = new System.Drawing.Point(162, 90);
-            this.txtBox_addnameIncome.Name = "txtBox_addnameIncome";
-            this.txtBox_addnameIncome.Size = new System.Drawing.Size(170, 27);
-            this.txtBox_addnameIncome.TabIndex = 3;
+            this.txtBox_addnamepayment.Location = new System.Drawing.Point(122, 73);
+            this.txtBox_addnamepayment.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBox_addnamepayment.Name = "txtBox_addnamepayment";
+            this.txtBox_addnamepayment.Size = new System.Drawing.Size(128, 23);
+            this.txtBox_addnamepayment.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 90);
+            this.label6.Location = new System.Drawing.Point(12, 73);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 20);
+            this.label6.Size = new System.Drawing.Size(99, 17);
             this.label6.TabIndex = 2;
             this.label6.Text = "ชื่อประเภทรายรับ";
             // 
-            // txtBox_addIdIncome
+            // txtBox_addIdpayment
             // 
-            this.txtBox_addIdIncome.Location = new System.Drawing.Point(162, 47);
-            this.txtBox_addIdIncome.Name = "txtBox_addIdIncome";
-            this.txtBox_addIdIncome.Size = new System.Drawing.Size(170, 27);
-            this.txtBox_addIdIncome.TabIndex = 1;
+            this.txtBox_addIdpayment.Location = new System.Drawing.Point(122, 38);
+            this.txtBox_addIdpayment.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBox_addIdpayment.Name = "txtBox_addIdpayment";
+            this.txtBox_addIdpayment.Size = new System.Drawing.Size(128, 23);
+            this.txtBox_addIdpayment.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 47);
+            this.label5.Location = new System.Drawing.Point(12, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 20);
+            this.label5.Size = new System.Drawing.Size(107, 17);
             this.label5.TabIndex = 0;
             this.label5.Text = "รหัสประเภทรายรับ";
             // 
             // money
             // 
-            this.money.Location = new System.Drawing.Point(113, 257);
+            this.money.Location = new System.Drawing.Point(85, 209);
+            this.money.Margin = new System.Windows.Forms.Padding(2);
             this.money.Name = "money";
-            this.money.Size = new System.Drawing.Size(254, 28);
+            this.money.Size = new System.Drawing.Size(192, 24);
             this.money.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 257);
+            this.label4.Location = new System.Drawing.Point(10, 209);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.Size = new System.Drawing.Size(65, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "จำนวนเงิน";
             // 
@@ -337,74 +368,82 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 129);
+            this.label3.Location = new System.Drawing.Point(5, 105);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.Size = new System.Drawing.Size(67, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "รายละเอียด";
             // 
-            // btnAddTypeIncome
+            // btnAddTypePayment
             // 
-            this.btnAddTypeIncome.Location = new System.Drawing.Point(325, 87);
-            this.btnAddTypeIncome.Name = "btnAddTypeIncome";
-            this.btnAddTypeIncome.Size = new System.Drawing.Size(42, 30);
-            this.btnAddTypeIncome.TabIndex = 4;
-            this.btnAddTypeIncome.Text = "..";
-            this.btnAddTypeIncome.UseVisualStyleBackColor = true;
+            this.btnAddTypePayment.Location = new System.Drawing.Point(244, 71);
+            this.btnAddTypePayment.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddTypePayment.Name = "btnAddTypePayment";
+            this.btnAddTypePayment.Size = new System.Drawing.Size(32, 24);
+            this.btnAddTypePayment.TabIndex = 4;
+            this.btnAddTypePayment.Text = "..";
+            this.btnAddTypePayment.UseVisualStyleBackColor = true;
+            this.btnAddTypePayment.Click += new System.EventHandler(this.btnAddTypePayment_Click);
             // 
-            // typeincoms
+            // typepayment
             // 
-            this.typeincoms.FormattingEnabled = true;
-            this.typeincoms.Location = new System.Drawing.Point(113, 87);
-            this.typeincoms.Name = "typeincoms";
-            this.typeincoms.Size = new System.Drawing.Size(206, 30);
-            this.typeincoms.TabIndex = 3;
+            this.typepayment.FormattingEnabled = true;
+            this.typepayment.Location = new System.Drawing.Point(85, 71);
+            this.typepayment.Margin = new System.Windows.Forms.Padding(2);
+            this.typepayment.Name = "typepayment";
+            this.typepayment.Size = new System.Drawing.Size(156, 25);
+            this.typepayment.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 87);
+            this.label2.Location = new System.Drawing.Point(22, 71);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 20);
+            this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "ประเภท";
             // 
-            // date_income
+            // date_payment
             // 
-            this.date_income.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.date_income.Location = new System.Drawing.Point(113, 43);
-            this.date_income.Name = "date_income";
-            this.date_income.Size = new System.Drawing.Size(254, 28);
-            this.date_income.TabIndex = 1;
+            this.date_payment.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.date_payment.Location = new System.Drawing.Point(85, 35);
+            this.date_payment.Margin = new System.Windows.Forms.Padding(2);
+            this.date_payment.Name = "date_payment";
+            this.date_payment.Size = new System.Drawing.Size(192, 24);
+            this.date_payment.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 50);
+            this.label1.Location = new System.Drawing.Point(40, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 20);
+            this.label1.Size = new System.Drawing.Size(32, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "วันที่";
             // 
             // payment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1428, 797);
+            this.ClientSize = new System.Drawing.Size(1071, 641);
             this.Controls.Add(this.price);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "payment";
             this.Text = "payment";
             this.price.ResumeLayout(false);
             this.price.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.allIncome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.allIpayment)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.addTypeIncomeBox.ResumeLayout(false);
             this.addTypeIncomeBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_ShowAllTypeIncome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataG_ShowAllTypepayment)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -412,9 +451,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox price;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button search;
-        private System.Windows.Forms.ComboBox typeincomesearch;
+        private System.Windows.Forms.ComboBox typepaymentsearch;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dateendsearch;
         private System.Windows.Forms.Label label9;
@@ -422,26 +460,27 @@
         private System.Windows.Forms.DateTimePicker datestartsearch;
         private System.Windows.Forms.Label allprice;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataGridView allIncome;
+        private System.Windows.Forms.DataGridView allIpayment;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox descriptionincome;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button save_income;
+        private System.Windows.Forms.TextBox descriptionpayment;
+        private System.Windows.Forms.Button delete_payment;
+        private System.Windows.Forms.Button save_payment;
         private System.Windows.Forms.GroupBox addTypeIncomeBox;
-        private System.Windows.Forms.Button closetypeincome;
-        private System.Windows.Forms.DataGridView dataG_ShowAllTypeIncome;
-        private System.Windows.Forms.Button saveTypeIncome;
-        private System.Windows.Forms.TextBox txtBox_addnameIncome;
+        private System.Windows.Forms.Button closetypepayment;
+        private System.Windows.Forms.DataGridView dataG_ShowAllTypepayment;
+        private System.Windows.Forms.Button saveTypepayment;
+        private System.Windows.Forms.TextBox txtBox_addnamepayment;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtBox_addIdIncome;
+        private System.Windows.Forms.TextBox txtBox_addIdpayment;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox money;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnAddTypeIncome;
-        private System.Windows.Forms.ComboBox typeincoms;
+        private System.Windows.Forms.Button btnAddTypePayment;
+        private System.Windows.Forms.ComboBox typepayment;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker date_income;
+        private System.Windows.Forms.DateTimePicker date_payment;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
     }
 }
